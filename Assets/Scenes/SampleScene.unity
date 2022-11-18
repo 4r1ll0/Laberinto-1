@@ -1168,6 +1168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a9723305d334e54fb504ce203afd560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movimientoEjex: 0
+  movimientoEjey: 0
+  movimientoEjez: 0
 --- !u!1 &2069904314
 GameObject:
   m_ObjectHideFlags: 0

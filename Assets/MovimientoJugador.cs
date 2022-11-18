@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class MovimientoJugador : MonoBehaviour
 {
+
+    public float movimientoEjex;
+    public float movimientoEjey;
+    public float movimientoEjez;
+
+
     // Start is called before the first frame update
     void Start()
     {
 
-        transform.Translate(-7.0f, 0.0f, 0.0f);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(movimientoEjex, movimientoEjey, movimientoEjez);
     }
 }
